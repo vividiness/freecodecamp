@@ -191,7 +191,32 @@ function updateRecords(records, id, prop, value) {
     }  
   
     return records;
+
+   
   }
+
+/* ----- Recursive ---------
+Imagine you go to open your bedroom door and it’s locked. Your three-year-old son pops in from around the corner and lets
+you know he hid the only key in a box. (“Just like him,” you think.) You're late for work and you really need to get
+in the room to get your shirt.
+
+You open the box only to find… more boxes. Boxes inside of boxes. And you don’t know which one has the key! You need to get
+that shirt soon, so you have to think of a good algorithm to find that key.
+
+ex:
+
+ function countup(n) {
+      if (n < 1) {
+        return [];
+      } else {
+        const countArray = countup(n - 1);
+        countArray.push(n);
+        return countArray;
+      }
+    }
+
+*/
+
 
 
 
