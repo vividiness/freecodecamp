@@ -215,7 +215,27 @@ ex:
       }
     }
 
+    //somar todos os numeros: ex: 456 = 15 = 6
+  function digitalRoot(n) {
+  if (n < 10) return n;
+ 
+  return digitalRoot(n.toString().split('').reduce((a, d) => {
+      return a + +d;
+    },0));
+}
+
+
 */
+
+/*
+When you declare a variable with the >>>> let <<<< keyword inside a block, statement,
+or expression, its scope is limited to that block, statement, or expression.
+
+e var é global.
+wtf
+*/
+
+
 
 
 
