@@ -224,6 +224,12 @@ ex:
     },0));
 }
 
+//arrow function
+stringToArray = (string) => string.split(" ");
+
+console.log(stringToArray("Viviane Pereira Gomes"))
+
+
 
 */
 
